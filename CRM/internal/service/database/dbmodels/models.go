@@ -1,4 +1,4 @@
-package database
+package main
 
 type Customer struct {
 	FirstName   string `json:"first_name"`
