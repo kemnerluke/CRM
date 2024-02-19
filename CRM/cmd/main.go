@@ -26,7 +26,7 @@ func main() {
  
 
  //does not work
-//   postgres.GetCustomers()
+  postgres.GetCustomers()
 
 
  if err != nil {
