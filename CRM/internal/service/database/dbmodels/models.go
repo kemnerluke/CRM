@@ -1,4 +1,4 @@
-package main
+package dbmodels
 
 type Customer struct {
 	FirstName   string `json:"first_name"`

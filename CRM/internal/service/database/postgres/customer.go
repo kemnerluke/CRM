@@ -2,8 +2,7 @@ package postgres
 
 //package CRM/internal/service/database/postgres/dbmodels is not in std (C:\Program Files\Go\src\CRM\internal\service\database\postgres\dbmodels) (compile)go-staticcheck
 import (
-	"CRM/internal/service/database/postgres/dbmodels"
-
+	"CRM/internal/service/database/dbmodels"
 	"fmt"
 
 	"github.com/google/uuid"
