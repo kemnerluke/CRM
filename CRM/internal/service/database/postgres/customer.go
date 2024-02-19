@@ -1,6 +1,6 @@
 package postgres
 
-//could not import CRM/internal/service/database/postgres/dbmodels (no required module provides package "CRM/internal/service/database/postgres/dbmodels")compilerBrokenImport
+//package CRM/internal/service/database/postgres/dbmodels is not in std (C:\Program Files\Go\src\CRM\internal\service\database\postgres\dbmodels) (compile)go-staticcheck
 import (
 	"CRM/internal/service/database/postgres/dbmodels"
 
