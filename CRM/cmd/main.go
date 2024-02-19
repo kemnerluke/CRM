@@ -17,15 +17,13 @@ func main() {
 	}
  
 
- db , err:= postgres.Open()
+//  db , err:= postgres.Open()
 
- env := &Env{db: db}
+//  env := &Env{db: db}
 
- log.Info(env)
+//  log.Info(env)
 
- 
 
- //does not work
   postgres.GetCustomers()
 
 

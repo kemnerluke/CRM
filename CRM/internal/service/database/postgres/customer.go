@@ -3,6 +3,7 @@ package postgres
 //could not import CRM/internal/service/database/postgres/dbmodels (no required module provides package "CRM/internal/service/database/postgres/dbmodels")compilerBrokenImport
 import (
 	"CRM/internal/service/database/postgres/dbmodels"
+
 	"fmt"
 
 	"github.com/google/uuid"
@@ -10,7 +11,7 @@ import (
 
 
 
-func (env *Env) GetCustomers(memberKey uuid.UUID) (records []dbmodels.Customer, err error) {
+func GetCustomers(memberKey uuid.UUID) (records []dbmodels.Customer, err error) {
 
 
 
