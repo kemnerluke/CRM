@@ -1,8 +1,6 @@
 package main
 
 import (
-	"database/sql"
-
 	log "github.com/sirupsen/logrus"
 
 	"CRM/internal/service/database/postgres"
@@ -12,23 +10,13 @@ import (
 
 func main() {
 
-	type Env struct {
-		db *sql.DB
-	}
- 
 
-//  db , err:= postgres.Open()
-
-//  env := &Env{db: db}
-
-//  log.Info(env)
+	log.Info("---Starting Main---")
 
 
   postgres.GetCustomers()
 
 
- if err != nil {
-	log.Fatal(err)
-}
+
 
 }
